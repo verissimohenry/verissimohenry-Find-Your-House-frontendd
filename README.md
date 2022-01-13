@@ -1,7 +1,7 @@
 # Find-Your-House
 
 ## Project Description
-Find-Your-House App is an application designed to track results using back-end API, which was also custom built for this app ([API Repo](https://github.com/verissimohenry/verissimohenry-Find-Your-House-backend.git)). It fetches data such as favourites of Biceps, Thighs, Hip and Waist. It also allows user to post new measurement data.
+Find-Your-House App is an application designed to track results using back-end API, which was also custom built for this app ([API Repo](https://github.com/verissimohenry/verissimohenry-Find-Your-House-backend.git)). It fetches data. It also allows user to post new data.
 
 <span style="display:block;text-align:center">![screenshot]()</span>
 
