@@ -1,7 +1,7 @@
 let url = '';
 
 if (process.env.NODE_ENV === 'production') {
-  url = 'https://tranquil-shore-53426.herokuapp.com/';
+  url = 'https://sheltered-sea-10755.herokuapp.com/';
 } else {
   url = 'http://localhost:3001/';
 }
