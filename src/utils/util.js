@@ -34,6 +34,5 @@ export const handleRegister = (username, email, password, passwordConfirmation) 
   username,
   email,
   password,
-  passwordConfirmation,
-},
-{ withCredentials: true });
+  password_confirmation: passwordConfirmation,
+});
