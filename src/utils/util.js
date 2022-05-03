@@ -27,8 +27,7 @@ export const fetchHouse = () => axios.get(`${API_ID}${API_HOUSE}`);
 export const handleLogin = (email, password) => axios.post(`${API_ID}${API_LOGIN}`, {
   email,
   password,
-},
-{ withCredentials: true });
+});
 
 export const handleRegister = (username, email, password, passwordConfirmation) => axios.post(`${API_ID}${API_REGISTER}`, {
   username,
