@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`renders correctly 1`] = `<error />`;
+
 exports[`renders error component correctly 1`] = `<error />`;
