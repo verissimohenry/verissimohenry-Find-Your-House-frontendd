@@ -16,8 +16,9 @@ it('render name', () => {
   };
   const { getByTestId } = render(
     <BrowserRouter>
-      <HouseCard key={house.id} house={house} />{' '}
-    </BrowserRouter>
+      <HouseCard key={house.id} house={house} />
+      {' '}
+    </BrowserRouter>,
   );
   expect(getByTestId('1')).toHaveTextContent('one family down');
 });
