@@ -22,7 +22,10 @@ export const fetchFavourite = token => axios.get(`${API_ID}${API_FAVOURITE}`, {
 
 export const fetchHouseDetail = id => axios.get(`${API_ID}${API_HOUSE}/${id}`);
 
-export const fetchHouse = () => axios.get(`${API_ID}${API_HOUSE}`);
+export const fetchHouse = (house, favs) => axios.get(`${API_ID}${API_HOUSE}`, {
+  house,
+  favs,
+});
 
 export const handleLogin = (email, password) => axios.post(`${API_ID}${API_LOGIN}`, {
   email,

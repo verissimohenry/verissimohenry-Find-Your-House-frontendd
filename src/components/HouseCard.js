@@ -9,7 +9,8 @@ const HouseCard = props => {
   const [btn, setBtn] = useState('Add to Favorite');
   const [className, setClassName] = useState('btn');
   const { house, favs } = props;
-  const favMe = () => {// eslint-disable-line
+  const favMe = () => {
+    // eslint-disable-line
     let fa = false;
     for (let i = 0; i < favs.length; i += 1) {
       if (favs[i].id === house.id) fa = true;
@@ -35,10 +36,7 @@ const HouseCard = props => {
     }
 
     return (
-      <button
-        className="btn-success"
-        type="button"
-      >
+      <button className="btn-success" type="button">
         Added to Favorite
       </button>
     );
@@ -46,26 +44,30 @@ const HouseCard = props => {
 
   return (
     <div data-testid={house.id} className="card">
-      <div>
-        <img className="house-img" src={house.photo} alt={house.name} />
-      </div>
-      <div className="detail-header">
+      <form>
         <div>
-          <p>{house.name}</p>
+          <img className="house-img" src={house.photo} alt={house.name} />
         </div>
-        <div>
+        <div className="detail-header">
+          <div>
+            <p>{house.name}</p>
+          </div>
+          <div>
+            <p>
+              {house.price}
+              $ / month
+            </p>
+          </div>
+        </div>
+        <div className="linker">
           <p>
-            {house.price}
-            $ / month
+            <Link to={`/dashboard/${house.id}/${house.name}`}>
+              Check Details
+            </Link>
           </p>
         </div>
-      </div>
-      <div className="linker">
-        <p><Link to={`/dashboard/${house.id}/${house.name}`}>Check Details</Link></p>
-      </div>
-      <div className="fav linker">
-        {favMe()}
-      </div>
+        <div className="fav linker">{favMe()}</div>
+      </form>
     </div>
   );
 };
