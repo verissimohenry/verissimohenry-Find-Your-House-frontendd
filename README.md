@@ -31,7 +31,8 @@ Find-Your-House App is an application designed to track results using back-end A
 ## House-Detail Page
 
 ![GUI](src/assets/img/readme/house.png)
-![GUI] (src/assets/img/readme/toolbar.png)
+
+![GUI](src/assets/img/readme/toolbar.png)
 
 ## Favourite Page
 
@@ -40,7 +41,8 @@ Find-Your-House App is an application designed to track results using back-end A
 ## Registration and login Page
 
 ![GUI](src/assets/img/readme/registration.png)
-![GUI] (src/assets/img/readme/login.png)
+
+![GUI](src/assets/img/readme/login.png)
 
 ## Live Demo
 [Click link](https://friendly-yonath-3ed2b1.netlify.app/)
