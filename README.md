@@ -3,8 +3,6 @@
 ## Project Description
 Find-Your-House App is an application designed to track results using back-end API, which was also custom built for this app ([API Repo](https://github.com/verissimohenry/verissimohenry-Find-Your-House-backend.git)). It fetches data. It also allows user to post new data.
 
-<span style="display:block;text-align:center">![screenshot]()</span>
-
 ### Features
 - Login with username
 - Responsive design that works for Mobile, Tablet and Desktop
@@ -21,6 +19,8 @@ Find-Your-House App is an application designed to track results using back-end A
 - CSS
 - ES6
 - Ruby on Rails for Backend API ([API Repo](https://github.com/verissimohenry/verissimohenry-Find-Your-House-backend.git))
+
+<span style="display:block;text-align:center">
 
 ## Project Screenshot <a name = "sc"></a>
 
@@ -43,6 +43,8 @@ Find-Your-House App is an application designed to track results using back-end A
 ![GUI](src/assets/img/readme/registration.png)
 
 ![GUI](src/assets/img/readme/login.png)
+
+</span>
 
 ## Live Demo
 [Click link](https://friendly-yonath-3ed2b1.netlify.app/)
