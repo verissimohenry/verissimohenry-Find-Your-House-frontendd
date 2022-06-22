@@ -1,6 +1,7 @@
 .house {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .favi {
@@ -28,8 +29,8 @@
 }
 
 .btn {
-  background-color: #fe0;
-  border: 2px solid #fe0;
+  background-color: #505485;
+  border: 2px solid #a3614d;
 }
 
 .btn-success {
