@@ -22,6 +22,26 @@ Find-Your-House App is an application designed to track results using back-end A
 - ES6
 - Ruby on Rails for Backend API ([API Repo](https://github.com/verissimohenry/verissimohenry-Find-Your-House-backend.git))
 
+## Project Screenshot <a name = "sc"></a>
+
+## House page
+
+![GUI](src/assets/img/readme/homescreen.png)
+
+## House-Detail Page
+
+![GUI](src/assets/img/readme/house.png)
+![GUI] (src/assets/img/readme/toolbar.png)
+
+## Favourite Page
+
+![GUI](src/assets/img/readme/favourite.png)
+
+## Registration and login Page
+
+![GUI](src/assets/img/readme/registration.png)
+![GUI] (src/assets/img/readme/login.png)
+
 ## Live Demo
 [Click link](https://friendly-yonath-3ed2b1.netlify.app/)
 
