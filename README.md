@@ -47,7 +47,7 @@ Find-Your-House App is an application designed to track results using back-end A
 </span>
 
 ## Live Demo
-[Click link](https://friendly-yonath-3ed2b1.netlify.app/)
+[Click link](https://super-pothos-7cd5fe.netlify.app/)
 
 ## Getting Started Locally
 
