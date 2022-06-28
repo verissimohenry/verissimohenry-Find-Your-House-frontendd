@@ -1,1 +1,5 @@
-/pass-through  /index.html  200
+[[redirects]]
+from = "/rates/*"
+to = "/"
+force = true
+status = 302
