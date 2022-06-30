@@ -1,0 +1,5 @@
+[[redirects]]
+from = "/rates/*"
+to = "/"
+force = true
+status = 302
