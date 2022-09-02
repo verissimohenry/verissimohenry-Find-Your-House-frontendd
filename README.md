@@ -1,7 +1,7 @@
 # Find-Your-House
 
 ## Project Description
-Find-Your-House App is an application designed to track results using back-end API, which was also custom built for this app ([API Repo](https://github.com/verissimohenry/verissimohenry-Find-Your-House-backend.git)). It fetches data. It also allows user to post new data.
+Find-Your-House App is an application designed to track results using back-end API, which was also custom built for this app ([API Repo](https://github.com/verissimohenry/verissimohenry-Find-Your-House-backend.git)). It fetches data. It also allows users to post new data.
 
 ### Features
 - Login with username
